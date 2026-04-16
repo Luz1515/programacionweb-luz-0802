@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos en HTML</title>
+</head>
+<body>
+    <div id="main-content">
+        <h1>Implementaci&oacute;n de objetos en HTML</h1>
+        <h2>Son utiles para implentar elementos externos 
+            como: Im&iacute;genes, videos y p&aacute;ginas. En un archivo web
+        </h2>
+        <hr>
+        <section class="object-tag">
+            <object data="index.html" width="500" height="350"></object>
+        </section>
+        <br>
+        <h2>Implementaci&oacute;n de video en HTML</h2>
+        <section class="video-tag"> 
+            <video width="600" height="300" controls>
+                <source src="https://youtu.be/aDAjZFhbv_4?si=nb8iw5TiDColCcNJ" type="video/mp4">
+                <source src="https://youtu.be/aDAjZFhbv_4?si=nb8iw5TiDColCcNJ" type="video/webm">
+            El navegador no soporta el video.
+            </video>
+            <iframe
+            src="https://youtu.be/aDAjZFhbv_4?si=nb8iw5TiDColCcNJ"
+            width="600"
+            height="300"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+        </section>
+        <section id="tag-audio">
+            <audio src="ruta" type="audio/mpeg" controls></audio>
+        </section>
+
+
+    </div>
+
+</body>
+</html>
